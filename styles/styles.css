@@ -389,6 +389,11 @@ footer {
   fill:#68A2CA;
 }
 
+.button:active svg{
+  fill:rgba(104, 162, 202, 0.3);
+}
+
+
 
 .social_list_item-tg{
   order: 2;
@@ -415,6 +420,14 @@ footer {
 
 .htmlacademy-link:hover svg {
   fill: #756157;
+}
+
+.phonenumber-LINK:active{
+  color: rgba(117, 97, 87, 0.3);
+}
+
+.htmlacademy-link:active svg {
+  fill: rgba(117, 97, 87, 0.3);
 }
 
 .html-svg {
@@ -1175,6 +1188,18 @@ margin: 0;
   color: #000000;
   background-color: white;
 }
+
+.pagination_item-notcorrent:active a,
+.pagination_item-notcorrent:active {
+  background-color:#68A2CA ;
+}
+
+
+.pagination_item-notcorrent:hover a,
+.pagination_item-notcorrent:hover {
+  background-color:#68A2CA ;
+}
+
 
 .select_control{
   font-family: 'PT Sans', sans-serif;
