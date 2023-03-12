@@ -48,7 +48,16 @@ body {
 }
 
 .nav-main {
-  margin-left: 16px;
+  margin-left: 16px;;
+}
+
+.selected-main {
+  width: 68px;
+  height: 2px;
+  background-color:#756257;
+  border: none;
+  position: relative;
+  bottom: -15px;
 }
 
 .nav-about {
@@ -58,6 +67,8 @@ body {
 .nav-hotels {
   margin-left: 32px;
 }
+
+
 
 
 .navigation_list {
@@ -209,7 +220,7 @@ list-style-type: none;
 }
 
 .sedona_short_description {
-  margin: 69px auto 25px auto;
+  margin: 64px auto 25px auto;
 }
 
 .advantages_intro {
@@ -244,6 +255,10 @@ list-style-type: none;
   padding: 8px 34px;
   border-radius: 4px;
   margin-top: 14px;
+}
+
+.interfice-go {
+  margin-bottom: 10px;
 }
 
 .sedona_short_description{
