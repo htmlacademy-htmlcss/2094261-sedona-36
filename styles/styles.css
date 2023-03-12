@@ -60,6 +60,15 @@ body {
   bottom: -15px;
 }
 
+.selected-catalog {
+  width: 93px;
+  height: 2px;
+  background-color:#756257;
+  border: none;
+  position: relative;
+  bottom: -16px;
+}
+
 .nav-about {
   margin-left: 32px;
 }
@@ -905,7 +914,21 @@ margin: 0;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   cursor: pointer;
+}
 
+.button_light:focus {
+  border: 2px solid #000000;
+  border-radius: 4px;
+}
+
+.button_light:hover {
+  border: 2px solid #68A2CA;
+  border-radius: 4px;
+}
+
+..button_light:active {
+  border: 2px solid #000000;
+  border-radius: 4px;
 }
 
 
