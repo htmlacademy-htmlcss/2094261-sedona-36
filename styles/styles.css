@@ -464,12 +464,13 @@ footer {
 }
 
 .html-svg:active {
-  fill: #756157  ;
+  fill: #756157;
 }
 
 .about-text {
   max-width: 120px;
 }
+
 
 .search_hotel-wrapper{
   display: flex;
@@ -1342,4 +1343,10 @@ margin: 0;
 
 .pagination_current:focus {
   background: #F2F2F2  ;
+}
+
+.vk-svg,
+.yt-svg,
+.tg-svg :active {
+  fill:#68A2CA;
 }
