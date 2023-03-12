@@ -626,6 +626,7 @@ margin: 0;
   height: 52px;
   padding: 0px;
   width: 244px;
+  cursor: pointer;
 }
 
 .search_results {
@@ -1117,26 +1118,35 @@ margin: 0;
   padding: 0;
 }
 
+.pagination_disabled:focus {
+  background-color: #68A2CA;
+}
 
+.pagination_disabled:hover {
+  background-color: #68A2CA;
+}
 
-
-.pagination_item {
-  width: 60px;
-  height: 60px;
-  background: #82B3D3;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  text-transform: uppercase;
-  margin-right: 8px;
-  cursor: pointer;
+.pagination_disabled:active {
+  background-color: rgba(130, 179, 211, 1);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 
 
+.pagination_item {
+  margin-right: 8px;
+}
+
 
 .pagination_link {
-  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  padding: 11.36px 24.55px 12.64px 23.45px;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: rgba(130, 179, 211, 1);
 }
 
 
@@ -1155,7 +1165,7 @@ margin: 0;
   background-color: #82B3D3;
 }
 
-.pagination_current{
+.pagination_item-current{
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -1163,9 +1173,17 @@ margin: 0;
   line-height: 36px;
   align-items: center;
   text-align: center;
+  padding-top: 11px;
   text-transform: uppercase;
   color: #000000;
   background-color: #F2F2F2;
+  width: 60px;
+  height: 60px;
+  background: #F2F2F2;
+  border-radius: 4px;
+  display: block;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
 
@@ -1189,16 +1207,6 @@ margin: 0;
   background-color: white;
 }
 
-.pagination_item-notcorrent:active a,
-.pagination_item-notcorrent:active {
-  background-color:#68A2CA ;
-}
-
-
-.pagination_item-notcorrent:hover a,
-.pagination_item-notcorrent:hover {
-  background-color:#68A2CA ;
-}
 
 
 .select_control{
@@ -1240,4 +1248,24 @@ margin: 0;
   text-align: center;
   color: #333333;
   background-color: white;
+}
+
+
+.subscribe_button:focus,
+.hotel_card_button-favorite:focus,
+.accept_button:focus {
+  background-color: #68A2CA;
+}
+
+.subscribe_button:hover,
+.hotel_card_button-favorite:hover,
+.accept_button:hover {
+  background-color: #68A2CA;
+}
+
+.subscribe_button:active,
+.hotel_card_button-favorite:active,
+.accept_button:active {
+  background-color: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
 }
