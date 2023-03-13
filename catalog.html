@@ -63,7 +63,7 @@
                         </ul>
                     </fieldset>
 
-                    <fieldset class="catalog-range-slider">
+                    <!--<fieldset class="catalog-range-slider">
                     <legend class="catalog-range-slider-legend">Стоимость, ₽:</legend>
                     <div class="range">
                       <div class="range-scale">
@@ -86,7 +86,28 @@
                         </label>
                       </div>
                     </div>
+                  </fieldset>-->
+                  <fieldset class="catalog-range-slider">
+                    <legend class="catalog-range-slider-legend">Стоимость, ₽:</legend>
+                  <div class="filter-range">
+                    <div class="filter-range-title">Стоимость в сутки (р):</div>
+                    <div class="price-controls">
+                      <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                      <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+                    </div>
+                    <div class="range-controls">
+                      <div class="scale">
+                        <div class="bar"></div>
+                      </div>
+                      <div class="range-toggle range-toggle-min"></div>
+                      <div class="range-toggle range-toggle-max"></div>
+                    </div>
                   </fieldset>
+
+
+
+
+
                     <DIV class="buttons-wrapper">
                       <button class="button accept_button" type="submit">Применить</button>
                       <button class="button reset_button" type="reset">Сбросить</button>
