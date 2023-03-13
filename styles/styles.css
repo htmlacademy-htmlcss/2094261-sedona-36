@@ -613,13 +613,45 @@ margin: 0;
 .subscribe{
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 24px;
   align-items: center;
   color: #000000;
   padding: 0 0 0 20px;
+  font: inherit;
 }
+
+.subscribe:focus {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  background: #E6E6E6;
+  outline: 3px solid #83B3D3;
+  border-radius: 4px;
+}
+
+.subscribe:hover {
+  background: #E6E6E6;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.catalog-range-slider-legend {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
 
 .sub_modul-wrapper {
   align-self: center;
