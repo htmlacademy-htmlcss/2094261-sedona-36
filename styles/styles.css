@@ -41,6 +41,17 @@ body {
   position: relative;
 }
 
+.navigation_link:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+.navigation_link:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+
+
 .navigation_pages {
   width: 600px;
   display: flex;
