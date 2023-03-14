@@ -712,7 +712,7 @@ margin: 0;
   background-repeat: no-repeat;
   background-color: #82B3D3;
   width: 1200px;
-  height: 408px;
+  height: 412px;
 }
 
 .inner_header_title{
@@ -1048,9 +1048,22 @@ padding: 12px 20px;
 
 
 
-.accommodation_type_list_item {
+.accommodation_type_list_item:first-child {
   margin-bottom: 16px;
+  margin-top: 30px;
 }
+
+.accommodation_type_list_item {
+  margin-bottom: 18px;
+  margin-top: 16px;
+}
+
+
+.accommodation_type_list_item:last-child {
+  margin-bottom: 16px;
+  margin-top: 20px;
+}
+
 
 .checkbox-app {
   position: relative;
@@ -1132,7 +1145,9 @@ padding: 12px 20px;
 .accommodation_type_list {
   width: 141px;
   padding: 0;
-  margin-right: 140px;
+  margin-right: 104px;
+  margin-left: 36px;
+  position: relative;
 }
 
 .accommodation_type {
@@ -1146,6 +1161,28 @@ padding: 12px 20px;
   margin-right: 16px;
 }
 
+.control-radio {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+
+
+.control-radio-hot{
+  position: absolute;
+  left: -36px;
+}
+
+.control-radio-mot{
+  position: absolute;
+  left: -36px;
+}
+
+.control-radio-app{
+  position: absolute;
+  left: -36px;
+}
 
 
 .accept_button {
