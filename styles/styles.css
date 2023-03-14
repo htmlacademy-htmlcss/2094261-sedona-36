@@ -644,9 +644,12 @@ margin: 0;
 
 .catalog-range-slider {
   width: 288px;
-  height: 104px;
+  height: 160px;
   padding: 0px;
   margin: 0 70px 0 0;
+  border: none;
+  position: relative;
+  left: 9px;
 }
 
 .catalog-range-slider-legend {
@@ -657,6 +660,7 @@ margin: 0;
   line-height: 24px;
   text-transform: capitalize;
   color: #FFFFFF;
+  margin-bottom: 32px;
 }
 
 
@@ -809,6 +813,175 @@ margin: 0;
   border-radius: 5px;
 }
 
+.filter-range {
+  margin-top: 26px;
+  color: #fff;
+  text-transform: uppercase
+}
+
+
+.price-controls {
+  position: relative;
+  height: 24px;
+  width: 248px;
+  font-size: 0;
+  background: #F2F2F2;
+  margin-bottom: 44px;
+  display: flex;
+  border-radius: 4px;
+}
+
+.price-controls::after {
+
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2px;
+  height: 48px;
+  background-image: url("../images/form-back.png");
+  transform: translate(-50%,-50%)
+}
+
+.price-controls label {
+  height: 24px;
+  width: 143px;
+  background: #F2F2F2;
+  border-radius: 4px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  vertical-align: top;
+  cursor: pointer;
+  color:  rgba(0, 0, 0, 1);
+}
+
+.price-controls.min-price {
+  width: 90px;
+  padding-left: 20px 12px
+}
+
+
+.price-controls .max-price {
+  width: 101px;
+}
+
+.price-controls {
+padding: 12px 20px;
+}
+
+.price-controls:hover,
+.min-price:hover,
+.max-price:hover {
+  background: #E6E6E6;
+  }
+
+.form-text-from {
+  margin-left: 28px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.form-text-to {
+  position: relative;
+  left: 31px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.price-controls input {
+  width: 50px;
+  color: #000000;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+  color: inherit;
+  background: none;
+  border: none
+}
+
+.range-controls {
+  position: relative;
+  margin-bottom: 32px
+}
+
+.range-controls .scale {
+  height: 4px;
+  background: rgba(255,255,255,0.3)
+}
+
+.scale {
+  width: 287px;
+}
+
+.range-controls {
+  width: 297px;
+}
+
+.bar {
+  width: 206px;
+  height: 4px;
+  background: #fff
+}
+
+.range-toggle {
+  position: absolute;
+  top: -9px;
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer
+}
+
+.range-toggle:focus {
+  outline: 3px solid #83B3D3;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.range-toggle:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.range-toggle:active {
+  outline: 2px solid #83B3D3;
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+
+.range-toggle-min {
+  left: 0
+}
+
+.range-toggle-max {
+  left: 206px
+}
+
+.btn-transparent {
+  display: block;
+  margin-left: 85px;
+  padding: 6px 20px;
+  width: 137px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  cursor: pointer
+}
+
+.btn-transparent:hover {
+  color: #000;
+  background: #fff
+}
+
 
 .buttons-wrapper {
   display: flex;
@@ -882,6 +1055,7 @@ margin: 0;
 }
 
 .accommodation_type_list {
+  width: 141px;
   padding: 0;
   margin-right: 140px;
 }
@@ -890,6 +1064,7 @@ margin: 0;
   border: 0;
   margin: 0;
   padding: 0;
+  width: 240px;
 }
 
 .control-input-ac {
