@@ -1185,6 +1185,38 @@ padding: 12px 20px;
 }
 
 
+
+
+.control-input-ac[type="radio"]:checked + .control-radio::before {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #3F5E72;
+  border-radius: 50%;
+  content: "";
+}
+
+
+.checkbox-tupe-ac:hover .radio-otion-describtion {
+  color: rgba(200, 217, 231, 1);
+}
+
+.checkbox-tupe-ac:hover .control-radio {
+  background-color: rgba(200, 217, 231, 1);
+}
+
+.checkbox-tupe-ac:active .radio-otion-describtion {
+  color: rgba(153, 183, 209, 1);
+}
+
+.checkbox-tupe-ac:active .control-radio {
+  background-color: rgba(153, 183, 209, 1);
+}
+
+
+
 .accept_button {
   font-family: 'PT Sans';
   font-style: normal;
