@@ -254,6 +254,27 @@ list-style-type: none;
   margin: 0px auto 90px auto;
 }
 
+.number-of-favorite {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #7DB54F;
+  border-radius: 10px;
+  z-index: 1;
+  top: 15px;
+  right: 253px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  box-sizing: border-box;
+
+}
+
 
 .navigation_link {
   font-family: 'PT Sans', sans-serif;
@@ -884,7 +905,7 @@ margin: 0;
 
 .price-controls.min-price {
   width: 90px;
-  padding-left: 20px 12px
+  padding: 20px 12px
 }
 
 
@@ -1330,7 +1351,7 @@ padding: 12px 20px;
 .sort-select {
   width: 292px;
   font-family: PT Sans;
-  font-style: Regular;
+  font-style: normal;
   Font-size: 18px;
   Line-height: 21px;
   color: #333333;
@@ -1897,7 +1918,7 @@ padding: 12px 20px;
 
 }
 
-.calendar-line, {
+.calendar-line {
   position: relative;
 }
 
