@@ -134,6 +134,48 @@
         </div>
     </footer>
 
+    <div class="modal-container turn-off-modal">
+      <div class="modal">
+        <h2 class="modal-title">Поиск гостиницы в Седоне</h1>
+        <form class="calendar-hotel calendar-hotel-off" action="https://echo.htmlacademy.ru" method="post">
+          <div class="calendar-line">
+            <label for="arrivals">Дата Заезда:</label>
+            <input class="arrival-date" type="text" name="arrivals" id="arrivals" value="27 апреля 2020">
+            <span class="error-data">Мы не можем отправить вас в прошлое.</span>
+          </div>
+          <div class="calendar-line">
+            <label for="departure">Дата Выезда:</label>
+            <input class="departure-date" type="text" name="departure" id="departure" value="1 сентября 2023">
+            <span class="correct-date">На эти даты есть свободные номера. Пока есть.</span>
+          </div>
+          <div class="adults-cildren-wrapper">
+          <div class="adults-children">
+            <div class="adults-line">
+              <label for="adult">Взрослые:</label>
+              <div class="buttons-wrapper-modal">
+              <button class="plus-minus" type="submit"><svg class="-class" width="14" height="2" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0v2h14V0H0Z" fill="" fill-opacity=".3"/></svg></button>
+              <input class="adult-choose" type="text" name="adult" id="adult" value="2">
+              <button class="plus-minus" type="submit"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 6H8V0H6v6H0v2h6v6h2V8h6V6Z" fill="" fill-opacity=".3"/></svg></button>
+            </div>
+            </div>
+            <div class="children-line">
+              <label for="children">Дети: <svg class="info-svg" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="13" cy="13" r="13" fill="#83B3D3"/><path fill-rule="evenodd" clip-rule="evenodd"
+                d="M12 7h2v2h-2V7Zm2 12h-2v-9h2v9Z" fill="#fff"/></svg> <span class="info-banner">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+                </label>
+              <div class="buttons-wrapper-modal buttons-wrapper-modal-add">
+              <button class="plus-minus" type="submit"><svg class="-class" width="14" height="2" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0v2h14V0H0Z" fill="" fill-opacity=".3"/></svg></button>
+              <input class="children-choose" type="text" name="children" id="children" value="2">
+              <button class="plus-minus" type="submit"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 6H8V0H6v6H0v2h6v6h2V8h6V6Z" fill="" fill-opacity=".3"/></svg></button>
+            </div>
+            </div>
+          </div>
+        </div>
+          <button class="button-find" type="submit">Найти</button>
+        </form>
+
+      </div>
+    </div>
 
 
   </body>

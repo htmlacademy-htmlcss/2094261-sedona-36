@@ -637,7 +637,11 @@ margin: 0;
   font: inherit;
 }
 
-.subscribe:focus {
+.subscribe:focus,
+.arrival-date:focus,
+.departure-date:focus,
+.adult-choose:focus,
+.children-choose:focus {
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
@@ -648,7 +652,11 @@ margin: 0;
   border-radius: 4px;
 }
 
-.subscribe:hover {
+.subscribe:hover,
+.arrival-date:hover,
+.departure-date:hover,
+.adult-choose:hover,
+.children-choose:hover {
   background: #E6E6E6;
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
@@ -1765,4 +1773,270 @@ padding: 12px 20px;
 .hotel_card_button-favorite-chosed:active {
   background-color: #7DB54F;
   color:  rgba(255, 255, 255, 0.3);
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(242, 242, 242, 0.8);
+}
+
+.modal{
+  width: 717px;
+  min-height: 576px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  margin: 396px auto auto auto;
+  padding: 64px 70px;
+  box-sizing: border-box;
+
+}
+
+.modal-title {
+  font-family: 'PT Sans',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 64px;
+  color: #000000;
+
+}
+
+
+.children-line label {
+  font-family: 'PT Sans',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.adults-line label,
+.calendar-line label {
+  font-family: 'PT Sans',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-top: 12px;
+  margin-bottom: 12px;
+
+}
+
+.arrival-date,
+.departure-date {
+  box-sizing: border-box;
+  width: 440px;
+  min-height: 48px;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  background-image:   url("../images/icons/calendar.png");
+  background-repeat: no-repeat;
+  background-position: center right 20px;
+}
+
+.calendar-hotel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.calendar-line {
+  width: 700px;
+  min-height: 48px;
+  margin-bottom: 48px;
+  display: flex;
+
+}
+.arrival-date{
+  margin-left: 24px;
+}
+
+.departure-date{
+  margin-left: 18px;
+}
+
+.button-find {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  border-radius: 10px;
+  border: none;
+  height: 60px;
+  padding: 0px;
+  width: 100%;
+  cursor: pointer;
+
+}
+
+.calendar-line, {
+  position: relative;
+}
+
+.error-data {
+  position: absolute;
+  top: 612px;
+  left: 819px;
+  color: #FF5757;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.correct-date {
+  position: absolute;
+  top: 708px;
+  left: 819px;
+  color: #333333;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.adults-children{
+  width: 100%;
+  min-height: 48px;
+  margin-bottom: 48px;
+  display: flex;
+}
+
+.plus-minus {
+  width: 40px;
+  height: 48px;
+  padding: 10px 10px;
+  border: none;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.plus-minus svg {
+  fill:rgba(117, 97, 87, 0.3);
+}
+
+.plus-minus:hover svg {
+  fill: rgba(0, 0, 0, 1);
+}
+
+.plus-minus:focus svg {
+  fill: rgba(0, 0, 0, 1);
+  outline: 2px solid #82B3D3;
+}
+
+.plus-minus:active svg {
+  fill: rgba(204, 204, 204, 1);
+}
+
+
+.adult-choose,
+.children-choose {
+  width: 31px;
+  height: 48px;
+  align-items: center;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  background: #F2F2F2;
+  border-radius: 4px;
+  border: none;
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+.buttons-wrapper-modal {
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  margin-left: 46px;
+}
+
+.buttons-wrapper-modal-add {
+  margin-left: 76px;
+}
+
+.children-line,
+.adults-line {
+  display: flex;
+}
+
+.children-line label{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.children-line {
+  margin-left: 78px;
+  position: relative;
+}
+
+.buttons-wrapper-modal input{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.-class {
+  position: relative;
+  top: -7px;
+}
+
+.info-svg{
+  position: absolute;
+  margin-left: 10px;
+}
+
+.info-banner {
+  z-index: -3;
+  position: absolute;
+  top: 52px;
+  right: 43px;
+  width: 256px;
+  box-sizing: border-box;
+  padding: 19px 18px 23px 22px;
+  font-family: 'PT Sans',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #333333;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+
+}
+
+.info-svg:hover+.info-banner {
+ z-index: 1;
 }
