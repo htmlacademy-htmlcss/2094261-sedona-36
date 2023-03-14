@@ -399,10 +399,12 @@ footer {
 
 .button:focus svg{
   fill:#68A2CA;
+  outline: none;
 }
 
 .button:hover svg{
   fill:#68A2CA;
+
 }
 
 .button:active svg{
@@ -424,10 +426,12 @@ footer {
 
 .phonenumber-LINK:focus{
   color: #756157;
+  outline: none;
 }
 
 .htmlacademy-link:focus svg {
   fill: #756157;
+  outline: none;
 }
 
 .phonenumber-LINK:hover{
@@ -752,6 +756,7 @@ margin: 0;
 
 .breadcrumbs_item:focus a{
   color: rgba(255, 255, 255, 1);
+  outline: none;
 }
 
 .breadcrumbs_item:hover a{
@@ -940,6 +945,7 @@ padding: 12px 20px;
   outline: 3px solid #83B3D3;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
+
 }
 
 .range-toggle:hover {
@@ -1253,14 +1259,12 @@ padding: 12px 20px;
 
 .reset_button:focus {
   color:rgba(255, 255, 255, 0.7);
+  outline: 3px solid #83B3D3;
 }
 
 .reset_button:hover {
-  color:rgba(255, 255, 255, 1);
+  color:rgba(255, 255, 255, 0.7);
 
-  border: 3px solid #83B3D3;
-  border-radius: 4px;
-  padding: 5px 54.5px
 }
 
 
@@ -1288,12 +1292,13 @@ padding: 12px 20px;
 }
 
 .button_light:focus {
-  border: 2px solid #000000;
+  border: 2px solid rgba(104, 162, 202, 1);
   border-radius: 4px;
+  outline: none;
 }
 
 .button_light:hover {
-  border: 2px solid #68A2CA;
+  border: 2px solid rgba(0, 0, 0, 1);
   border-radius: 4px;
 }
 
@@ -1305,15 +1310,14 @@ padding: 12px 20px;
 
 .sort-select {
   width: 292px;
-  height: 49px;
   font-family: PT Sans;
   font-style: Regular;
   Font-size: 18px;
   Line-height: 21px;
   color: #333333;
   padding-left: 20px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   margin-right: 70px;
   border-radius: 4px;
   appearance: none;
@@ -1321,7 +1325,20 @@ padding: 12px 20px;
   border-color: #E5E5E5;
   background-image: url("../images/icons/Vector-down.svg") ;
   background-repeat: no-repeat;
-  background-position: right 20px center;
+  background-position: right 18px center;
+}
+
+.sort-select:focus {
+  border: #68A2CA Solid 2px;
+  outline: none;
+}
+
+.sort-select:hover {
+  border: #68A2CA Solid 2px;
+}
+
+.sort-select:active {
+  border: #333333 Solid 2px;
 }
 
 .sort-options-wrapper {
@@ -1562,6 +1579,7 @@ padding: 12px 20px;
 
 .pagination_disabled:focus {
   background-color: #68A2CA;
+  outline: none;
 }
 
 .pagination_disabled:hover {
@@ -1687,6 +1705,7 @@ padding: 12px 20px;
 .hotel_card_button-favorite:focus,
 .accept_button:focus {
   background-color: #68A2CA;
+  outline: none;
 }
 
 .subscribe_button:hover,
@@ -1706,6 +1725,7 @@ padding: 12px 20px;
 .lets_go_button:focus,
 .hotel_card_button-more:focus{
   background-color: #615048;
+  outline: none;
 }
 
 .Search_hotel_button:hover,
@@ -1724,6 +1744,7 @@ padding: 12px 20px;
 
 .hotel_card_button-favorite-chosed:focus {
   background-color: #6C9E42;
+  outline: none;
 }
 
 .hotel_card_button-favorite-chosed:hover {
