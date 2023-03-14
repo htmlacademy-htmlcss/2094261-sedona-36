@@ -1079,12 +1079,6 @@ padding: 12px 20px;
   border-radius: 4px;
 }
 
-.control:focus .control-mark {
-  background: #FFFFFF;
-  border-radius: 4px;
-  outline: 3px solid #83B3D3;
-}
-
 .control:hover .control-mark {
   background: rgba(200, 217, 231, 1);
   border-radius: 4px;
@@ -1094,6 +1088,23 @@ padding: 12px 20px;
   background: rgba(153, 183, 209, 1);
   border-radius: 4px;
 }
+
+.control:active .control-mark svg{
+  fill:#3F5E72;
+}
+
+.control_input[type="checkbox"]:checked + .control-mark svg {
+  fill:#3F5E72;
+}
+
+
+.checked-svg {
+  position: absolute;
+  left: 25%;
+  bottom: 25%;
+  fill: transparent;
+}
+
 
 .control-Wi-Fi {
   position: relative;
