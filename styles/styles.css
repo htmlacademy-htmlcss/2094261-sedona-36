@@ -1815,8 +1815,44 @@ padding: 12px 20px;
   margin: 396px auto auto auto;
   padding: 64px 70px;
   box-sizing: border-box;
+  position: relative;
 
 }
+
+.closing-modal {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  background-color: #F2F2F2;
+  padding: 20px 19px 19px 20px;
+  box-sizing: border-box;
+  right: 53px;
+  top: 63px;
+}
+
+.closing-modal:hover {
+  background-color: #E6E6E6;
+}
+
+.closing-modal:focus {
+  background-color: #E6E6E6;
+  outline: 3px solid #83B3D3;
+}
+
+.closing-modal:active svg {
+  fill: rgba(161, 161, 161, 1);
+}
+
+.closing-modal svg {
+  fill: #000;
+  position: absolute;
+  right: 19px;
+  bottom:  19px;
+  z-index: 3;
+}
+
+
 
 .modal-title {
   font-family: 'PT Sans',sans-serif;
@@ -1924,8 +1960,8 @@ padding: 12px 20px;
 
 .error-data {
   position: absolute;
-  top: 612px;
-  left: 819px;
+  top: 51px;
+  left: 155px;
   color: #FF5757;
   font-family: 'PT Sans';
   font-style: normal;
@@ -1936,8 +1972,8 @@ padding: 12px 20px;
 
 .correct-date {
   position: absolute;
-  top: 708px;
-  left: 819px;
+  top: 51px;
+  left: 155px;
   color: #333333;
   font-family: 'PT Sans';
   font-style: normal;
