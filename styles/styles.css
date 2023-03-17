@@ -59,7 +59,8 @@ body {
 }
 
 .nav-main {
-  margin-left: 16px;;
+  margin-left: 16px;
+  margin-bottom: 5px;
 }
 
 .selected-main {
@@ -68,7 +69,7 @@ body {
   background-color:#756257;
   border: none;
   position: relative;
-  bottom: -15px;
+  bottom: -17px;
 }
 
 .selected-catalog {
@@ -82,10 +83,12 @@ body {
 
 .nav-about {
   margin-left: 32px;
+  margin-bottom: 5px;
 }
 
 .nav-hotels {
   margin-left: 32px;
+  margin-bottom: 5px;
 }
 
 
@@ -94,6 +97,8 @@ body {
 .navigation_list {
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
+  row-gap: 20px;
 }
 
 .logo_index {
@@ -195,7 +200,7 @@ list-style-type: none;
 
 .oftop_advantages_block {
   width: 1200px;
-  height: 246px;
+  min-height: 246px;
   display: flex;
   flex-direction: column;
   background-color: #FFFFFF;
@@ -211,7 +216,9 @@ list-style-type: none;
   text-transform: uppercase;
   color: #000000;
   background-color: #FFFFFF;
-  margin: 64px auto 0px auto;
+  margin: 34px auto 0px auto;
+  padding: 30px;
+  padding-bottom: 0;
 }
 
 .oftop_advantage_description {
@@ -223,7 +230,8 @@ list-style-type: none;
   text-align: center;
   color: #333333;
   background-color: #FFFFFF;
-  margin: 20px auto auto auto;
+  margin: 0 auto auto auto;
+  padding: 20px;
 }
 
 .advantages_photoitem {
@@ -233,6 +241,7 @@ list-style-type: none;
 
 .advantages_photo {
   display: block;
+  object-fit: cover;
 }
 
 .Search_hotel {
@@ -251,7 +260,9 @@ list-style-type: none;
 }
 
 .advantages_intro {
-  margin: 0px auto 90px auto;
+  margin: 0px auto 60px auto;
+  box-sizing: border-box;
+  padding: 0 30px 30px 30px;
 }
 
 .number-of-favorite {
@@ -306,7 +317,8 @@ list-style-type: none;
 }
 
 .interfice-go {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  display: flex;
 }
 
 .sedona_short_description{
@@ -319,6 +331,8 @@ list-style-type: none;
   text-transform: uppercase;
   color: #000000;
   background-color: #FFFFFF;
+  padding: 0 30px 0 30px;
+  box-sizing: border-box;
 }
 
 .advantages_intro{
@@ -419,6 +433,8 @@ footer {
   margin-bottom: 35px;
   margin-right: 236.5px;
   padding: 13px 12px 13px 12px;
+  flex-wrap: wrap;
+  row-gap: 15px;
 }
 
 .social_list_item-vk {
@@ -551,7 +567,7 @@ margin: 0;
   margin-top: 54px;
   cursor: pointer;
   width: 376px;
-  height: 52px;
+  min-height: 52px;
   box-sizing: border-box;
 }
 
@@ -562,7 +578,6 @@ margin: 0;
   margin: 96px auto 104px auto;
   width: 592px;
   min-height: 108px;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -709,7 +724,6 @@ margin: 0;
 
 .sub_modul-wrapper {
   align-self: center;
-  margin-top: 54px;
 }
 
 .subscribe_button{
@@ -725,7 +739,7 @@ margin: 0;
   background-color: #82B3D3;
   border-radius: 0px 4px 4px 0px;
   border: none;
-  height: 52px;
+  min-height: 52px;
   padding: 0px;
   width: 244px;
   cursor: pointer;
@@ -755,7 +769,7 @@ margin: 0;
   background-repeat: no-repeat;
   background-color: #82B3D3;
   width: 1200px;
-  height: 412px;
+  min-height: 412px;
 }
 
 .inner_header_title{
@@ -837,7 +851,7 @@ margin: 0;
 
 .catalog_buttons {
   display: flex;
-  max-height: 225px;
+  min-height: 225px;
 }
 
 .catalog_filter {
@@ -1119,7 +1133,6 @@ padding: 12px 20px;
 .control {
   position: relative;
   display: block;
-  padding-left: 36px;
 }
 
 
@@ -1396,6 +1409,8 @@ padding: 12px 20px;
   display: flex;
   width: 160px;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 0px;
 }
 
 .options_icons-wrapper a{
@@ -1614,6 +1629,8 @@ padding: 12px 20px;
   display: flex;
   margin-left: 70px;
   padding: 0;
+  flex-wrap: wrap;
+  row-gap: 15px;
 }
 
 .pagination_disabled:focus {
@@ -1685,7 +1702,10 @@ padding: 12px 20px;
   cursor: pointer;
 }
 
-
+.pagination_other {
+  padding-top: 17px;
+  padding-right: 25.5px;
+}
 
 .pagination_item-current {
   background: #F2F2F2;
@@ -1705,6 +1725,12 @@ padding: 12px 20px;
   color: #000000;
   background-color: white;
 }
+
+.double-digit-pagination {
+  padding-left: 18.45px;
+  display: block;
+}
+
 
 
 .amaunt-title{
