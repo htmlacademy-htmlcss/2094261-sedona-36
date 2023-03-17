@@ -171,7 +171,7 @@ list-style-type: none;
   display: flex;
 }
 
-.advantages-description-wrapper-112 {
+.advantages-description-soft-blue {
   display: flex;
   flex-direction: column;
   margin: 112.5px auto 112.5px auto;
@@ -180,7 +180,7 @@ list-style-type: none;
   justify-content: space-between;
 }
 
-.advantages-description-wrapper-80 {
+.iconed-advantages-description-wrapper {
   display: flex;
   flex-direction: column;
   margin: 80px auto 81px auto;
