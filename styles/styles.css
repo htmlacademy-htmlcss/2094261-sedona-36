@@ -924,13 +924,13 @@ padding: 12px 20px;
 
 .form-text-from {
   margin-left: 28px;
-  color: rgba(0, 0, 0, 1);
+  color: rgba(169, 169, 169, 1);
 }
 
 .form-text-to {
   position: relative;
   left: 31px;
-  color: rgba(0, 0, 0, 1);
+  color: rgba(169, 169, 169, 1);
 }
 
 .price-controls input {
@@ -2026,18 +2026,18 @@ padding: 12px 20px;
   background: #F2F2F2;
   border-radius: 4px;
   border: none;
-  margin-left: -1px;
-  margin-right: -1px;
+
 }
 
 .buttons-wrapper-modal {
   background-color: #F2F2F2;
   border-radius: 4px;
   margin-left: 46px;
+  display: flex;
 }
 
 .buttons-wrapper-modal-add {
-  margin-left: 76px;
+  margin-left: 80px;
 }
 
 .children-line,
@@ -2051,7 +2051,7 @@ padding: 12px 20px;
 }
 
 .children-line {
-  margin-left: 78px;
+  margin-left: 88px;
   position: relative;
 }
 
@@ -2066,7 +2066,7 @@ padding: 12px 20px;
 
 .-class {
   position: relative;
-  top: -7px;
+  top: -4px;
 }
 
 .info-svg{
