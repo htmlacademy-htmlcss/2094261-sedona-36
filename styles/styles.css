@@ -76,7 +76,7 @@ body {
   background-color:#756257;
   border: none;
   position: relative;
-  bottom: -16px;
+  bottom: -18px;
 }
 
 .nav-about {
@@ -267,7 +267,7 @@ list-style-type: none;
   z-index: 1;
   top: 15px;
   right: 253px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -515,7 +515,7 @@ footer {
 .hotel_title {
   margin-top: 16px;
   margin-bottom: 16px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -659,7 +659,7 @@ footer {
 .departure-date:focus,
 .adult-choose:focus,
 .children-choose:focus {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -818,7 +818,7 @@ footer {
 }
 
 .catalog_filter_title {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -864,7 +864,7 @@ footer {
   width: 143px;
   background: #F2F2F2;
   border-radius: 4px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -907,7 +907,7 @@ padding: 12px 20px;
 .price-controls input {
   width: 50px;
   color: #000000;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -1211,7 +1211,7 @@ padding: 12px 20px;
 }
 
 .accept_button {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1228,7 +1228,7 @@ padding: 12px 20px;
 }
 
 .reset_button {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1408,7 +1408,7 @@ padding: 12px 20px;
 
 .hotel_type {
   width: 140px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1416,7 +1416,7 @@ padding: 12px 20px;
 }
 
 .hotel_price {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1456,7 +1456,7 @@ padding: 12px 20px;
 }
 
 .hotel_card_button-more {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1473,7 +1473,7 @@ padding: 12px 20px;
 }
 
 .hotel_card_button-favorite {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1490,7 +1490,7 @@ padding: 12px 20px;
 }
 
 .hotel_card_button-favorite-chosed {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1507,7 +1507,7 @@ padding: 12px 20px;
 }
 
 .rating {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1645,7 +1645,7 @@ padding: 12px 20px;
 }
 
 .pagination-white a {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -1845,7 +1845,7 @@ padding: 12px 20px;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 20px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -1928,7 +1928,7 @@ padding: 12px 20px;
   top: 51px;
   left: 155px;
   color: #FF5757;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1940,7 +1940,7 @@ padding: 12px 20px;
   top: 51px;
   left: 155px;
   color: #333333;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -2019,7 +2019,7 @@ padding: 12px 20px;
 }
 
 .buttons-wrapper-modal input{
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
