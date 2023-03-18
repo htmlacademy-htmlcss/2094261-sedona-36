@@ -156,8 +156,8 @@ list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   width: 1200px;
-  padding: 0px;
-  margin-top: 0px;
+  padding: 0;
+  margin-top: 0;
 }
 
 .advantages_item {
@@ -209,7 +209,7 @@ list-style-type: none;
   text-transform: uppercase;
   color: #000000;
   background-color: #FFFFFF;
-  margin: 34px auto 0px auto;
+  margin: 34px auto 0 auto;
   padding: 30px;
   padding-bottom: 0;
 }
@@ -253,7 +253,7 @@ list-style-type: none;
 }
 
 .advantages_intro {
-  margin: 0px auto 60px auto;
+  margin: 0 auto 60 auto;
   box-sizing: border-box;
   padding: 0 30px 30px 30px;
 }
@@ -372,7 +372,7 @@ list-style-type: none;
 .advantages_description_white {
   background-color: #82B3D3;
   color: #FFFFFF;
-  margin: 0px;
+  margin: 0;
 }
 
 .advantages-soft-blue {
@@ -393,7 +393,7 @@ background-color: rgba(131, 179, 211, 0.12);
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  margin: 0px;
+  margin: 0;
 }
 
 footer {
@@ -574,7 +574,7 @@ footer {
 
 .subscribe {
   background: #F2F2F2;
-  border-radius: 4px 0px 0px 4px;
+  border-radius: 4px 0 0 4px;
   width: 452px;
   height: 52px;
   border: none;
@@ -685,7 +685,7 @@ footer {
 .catalog-range-slider {
   width: 288px;
   height: 160px;
-  padding: 0px;
+  padding: 0;
   margin: 0 70px 0 0;
   border: none;
   position: relative;
@@ -718,10 +718,10 @@ footer {
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: #82B3D3;
-  border-radius: 0px 4px 4px 0px;
+  border-radius: 0 4px 4px 0;
   border: none;
   min-height: 52px;
-  padding: 0px;
+  padding: 0;
   width: 244px;
   cursor: pointer;
 }
@@ -912,7 +912,6 @@ padding: 12px 20px;
   font-weight: 700;
   font-size: 18px;
   margin: 0;
-  color: inherit;
   background: none;
   border: none
 }
@@ -953,20 +952,20 @@ padding: 12px 20px;
 
 .range-toggle:focus {
   outline: 3px solid #83B3D3;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 
 }
 
 .range-toggle:hover {
   background: #FFFFFF;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 }
 
 .range-toggle:active {
   outline: 2px solid #83B3D3;
-  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
 }
 
@@ -1341,7 +1340,7 @@ padding: 12px 20px;
   width: 160px;
   justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 0px;
+  row-gap: 0;
 }
 
 .options_icons-wrapper a {
@@ -1760,7 +1759,7 @@ padding: 12px 20px;
   width: 717px;
   min-height: 576px;
   background-color: #FFFFFF;
-  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
   margin: auto auto auto auto;
   padding: 64px 70px;
@@ -1914,7 +1913,7 @@ padding: 12px 20px;
   border-radius: 10px;
   border: none;
   height: 60px;
-  padding: 0px;
+  padding: 0;
   width: 100%;
   cursor: pointer;
 }
@@ -2045,7 +2044,7 @@ padding: 12px 20px;
   height: 15px;
   position: absolute;
   transform: rotate(45deg);
-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   left: 63px;
   bottom: -12px;
   z-index: -1;
@@ -2066,7 +2065,7 @@ padding: 12px 20px;
   line-height: 20px;
   color: #FFFFFF;
   background: #333333;
-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
 
