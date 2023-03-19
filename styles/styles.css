@@ -583,6 +583,7 @@ footer {
 
 .newsletter {
   background-image: url("../images/background.jpg");
+  background-color: rgba(48,63, 56, 1);
   background-size: 100% auto;
   background-repeat: no-repeat;
   width: 1200px;
@@ -748,7 +749,7 @@ footer {
   background-image: url("../images/filter-back.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-color: #82B3D3;
+  background-color: rgba(48,63, 56, 1);
   width: 1200px;
   min-height: 412px;
 }
@@ -1003,7 +1004,7 @@ padding: 12px 20px;
   border: none;
   padding: 0;
   margin-right: 70px;
-  margin-bottom: 73px;
+  margin-bottom: 53px;
   margin-left: 70px;
 }
 
@@ -1118,6 +1119,7 @@ padding: 12px 20px;
   position: relative;
   top: -2px;
   left: 20px;
+  margin-bottom: 20px;
 }
 
 .control-parking {
@@ -1378,6 +1380,14 @@ padding: 12px 20px;
   background-color: #FFFFFF;
   text-decoration: none;
   width: 300px;
+}
+
+.hotel_card_link:focus img {
+  opacity: 0.75;
+}
+
+.hotel-photo:hover {
+  opacity: 0.75;
 }
 
 .hotel_card {
