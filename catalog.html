@@ -16,12 +16,12 @@
           <li class="navigation_item nav-about"> <a class="navigation_link" href="#"> О Седоне </a> </li>
           <li class="navigation_item nav-hotels curent-page-hotels"> <a class="navigation_link" href="catalog.html"> Гостиницы </a><div class="selected-catalog"></div> </li>
         </ul>
-        <ul class="navigation_list navigation_interfice">
-          <li class="navigation_item interfice-search"> <a class="navigation_link" href="#"> <span class="visually-hidden">Поиск.</span>
+        <ul class="navigation_list navigation_interface">
+          <li class="navigation_item interface-search"> <a class="navigation_link" href="#"> <span class="visually-hidden">Поиск.</span>
             <img src="images/icons/search.svg" alt="Кнопка поиска." width="19" height="19"> </a> </li>
-            <li class="navigation_item interfice-favorites"> <a class="navigation_link" href="#"><span class="number-of-favorite">12</span> <span class="visually-hidden">Избранное.</span>
+            <li class="navigation_item interface-favorites"> <a class="navigation_link" href="#"><span class="number-of-favorite">12</span> <span class="visually-hidden">Избранное.</span>
               <img src="images/icons/favorite.svg" alt="Кнопка избранного." width="19" height="17"> </a> </li>
-          <li class="navigation_item interfice-go"> <a class="lets_go_button" href="#"> Хочу сюда! </a> </li>
+          <li class="navigation_item interface-go"> <a class="lets_go_button" href="#"> Хочу сюда! </a> </li>
         </ul>
       </nav>
 
@@ -34,7 +34,7 @@
             <ul class="breadcrumbs">
                 <li class="breadcrumbs_item breadcrumbs_item-home"><a href="index.html"> <img src="images/icons/main-icon.svg" alt="На главную" width="13px" height="13px"> </a></li>
                 <li class="breadcrumbs_item breadcrumbs_item-vector"><div class="vector-right"><span class="visually-hidden">Обозначение положения на сайте.</span></div></li>
-                <li class="breadcrumbs_item breadcrumbs_item-curen "><a href="#">Гостиницы</a></li>
+                <li class="breadcrumbs_item breadcrumbs_item-current"><a href="#">Гостиницы</a></li>
             </ul>
            </div>
            <section class="catalog_hotels">
@@ -43,8 +43,8 @@
 
                     <fieldset class="catalog_filter_group infrastructure">
                         <legend class="catalog_filter_title infrastructure-title">Инфраструктура:</legend>
-                          <label class="control control-swimmingpool">
-                            <input class="control_input control_input-swimmingpool visually-hidden" type="checkbox" name="swimmingpool" >
+                          <label class="control control-swimming-pool">
+                            <input class="control_input control_input-swimming-pool visually-hidden" type="checkbox" name="swimming-pool" >
                               <span class="control-mark">
                                 <svg class="checked-svg" width="13" height="11" aria-hidden="true" focusable="false" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11 .5 4.5 7.9 1.1 4 0 5.2l4.5 5.2 7.7-8.6L11 .5Z" fill=""/></svg>
                               </span>
@@ -72,25 +72,25 @@
                         <legend class="catalog_filter_title accommodation_type-title">Тип жилья:</legend>
                           <ul class="accommodation_type_list">
                             <li class="accommodation_type_list_item">
-                              <label class="checkbox checkbox-tupe-ac checkbox-hot">
+                              <label class="checkbox checkbox-type-ac checkbox-hot">
                                 <input class="control-input-ac visually-hidden" type="radio" name="accommodation" value="hotel">
                                 <span class="control-radio control-radio-hot"></span>
-                                <span class="radio-otion-describtion">Гостиница</span>
+                                <span class="radio-option-description">Гостиница</span>
                               </label>
                             </li>
 
                             <li class="accommodation_type_list_item">
-                              <label class="checkbox checkbox-tupe-ac checkbox-mot">
+                              <label class="checkbox checkbox-type-ac checkbox-mot">
                                 <input class="control-input-ac visually-hidden" type="radio" name="accommodation" value="Motel">
-                                <span class="control-radio control-radio-mot"></span><span class="radio-otion-describtion">Мотель</span>
+                                <span class="control-radio control-radio-mot"></span><span class="radio-option-description">Мотель</span>
                               </label>
                             </li>
 
                             <li class="accommodation_type_list_item">
-                              <label class="checkbox checkbox-tupe-ac checkbox-app">
+                              <label class="checkbox checkbox-type-ac checkbox-app">
                                 <input class="control-input-ac visually-hidden" type="radio" name="accommodation" value="Apartments">
                                 <span class="control-radio control-radio-app"></span>
-                                <span class="radio-otion-describtion">Апартаменты</span>
+                                <span class="radio-option-description">Апартаменты</span>
                               </label>
                             </li>
                         </ul>
@@ -130,7 +130,7 @@
       </div>
                 <section class="search_results">
                   <div class="sort-options-wrapper">
-                    <h3 class="search_resaults_title">Найдено гостиниц: 38</h3>
+                    <h3 class="search_results_title">Найдено гостиниц: 38</h3>
 
                     <div class="select">
                       <select class="select_control sort-select" aria-label="Сортировка">
@@ -215,7 +215,7 @@
                       </li>
                      </ul>
 
-                <div class="underliner"></div>
+                <div class="underline"></div>
 
                 <ul class="pagination">
 
@@ -253,7 +253,7 @@
           <div class="newsletter-wrapper">
             <h2 class="newsletter_title-black">Подпишитесь на рассылку</h2>
             <p class="newsletter_description-black">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
-              <div class=".sub_modul-wrapper">
+              <div class=".sub_module-wrapper">
                 <form action="https://echo.htmlacademy.ru/" method="post" class="newsletter_subscribe">
                   <input class="subscribe" type="email" placeholder="Ваш e-mail" name="newsletter-email" >
                   <button type="submit" class="subscribe_button">Подписаться</button>
