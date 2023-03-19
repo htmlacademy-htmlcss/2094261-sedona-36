@@ -745,7 +745,7 @@ footer {
 }
 
 .catalog_filter {
-  background-image: url("../images/filter_back.jpg");
+  background-image: url("../images/filter-back.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: #82B3D3;
@@ -1022,6 +1022,11 @@ padding: 12px 20px;
   margin-right: 16px;
 }
 
+.control_input:focus ~ .control-mark {
+  outline: #83B3D3 Solid 3px;
+  border-radius: 4px;
+}
+
 .control {
   align-items: center;
   padding: 0;
@@ -1191,6 +1196,11 @@ padding: 12px 20px;
   background-color: rgba(153, 183, 209, 1);
 }
 
+.control-input-ac:focus ~ .control-radio {
+  outline: #83B3D3 Solid 3px;
+  border-radius: 50%;
+}
+
 .accept_button {
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
@@ -1287,7 +1297,7 @@ padding: 12px 20px;
   appearance: none;
   border: 2px solid;
   border-color: #E5E5E5;
-  background-image: url("../images/icons/Vector-down.svg") ;
+  background-image: url("../images/icons/vector-down.svg") ;
   background-repeat: no-repeat;
   background-position: right 18px center;
 }
