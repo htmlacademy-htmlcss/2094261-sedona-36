@@ -1745,7 +1745,7 @@ padding: 12px 20px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
   margin: auto auto auto auto;
-  padding: 64px 70px;
+  padding: 64px 70px 0 70px;
   box-sizing: border-box;
   position: relative;
 }
@@ -1760,6 +1760,7 @@ padding: 12px 20px;
   box-sizing: border-box;
   right: 53px;
   top: 63px;
+  border: none;
 }
 
 .closing-modal:hover {
@@ -1899,6 +1900,7 @@ padding: 12px 20px;
   padding: 0;
   width: 100%;
   cursor: pointer;
+  margin-bottom: 64px;
 }
 
 .calendar-line {
