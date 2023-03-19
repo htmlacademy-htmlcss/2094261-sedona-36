@@ -684,6 +684,14 @@ footer {
   line-height: 24px;
 }
 
+.subscribe:disabled,
+.submit:disabled,
+.sort-select {
+ color:rgba(0, 0, 0, 0.3);
+ border: rgba(0, 0, 0, 0.3);
+}
+
+
 .catalog-range-slider {
   width: 288px;
   height: 160px;
@@ -1088,6 +1096,22 @@ padding: 12px 20px;
 
 .control:hover .control-label {
   color: rgba(200, 217, 231, 1);
+}
+
+.control_input:disabled ~ .control-mark {
+  background-color: rgba(153, 183, 209, 0.7);
+}
+
+.control_input:disabled ~ .control-label {
+  color: rgba(153, 183, 209, 0.7);
+}
+
+.control-input-ac:disabled ~ .control-radio {
+  background-color: rgba(153, 183, 209, 0.7);
+}
+
+.control-input-ac:disabled ~ span {
+  color: rgba(153, 183, 209, 0.7);
 }
 
 .control:hover .control-mark {
@@ -1748,6 +1772,10 @@ padding: 12px 20px;
   z-index: 2;
 }
 
+.modal-container:not(.is-active) {
+  display: none;
+}
+
 .modal {
   width: 717px;
   min-height: 576px;
@@ -2066,4 +2094,12 @@ padding: 12px 20px;
 
 .info-svg:hover ~ div{
  z-index: 1;
+}
+
+.adult-choose:disabled,
+.children-choose:disabled,
+.departure-date:disabled,
+.arrival-date:disabled {
+  color: rgb(0, 0, 0, 0.1);
+  background-color: rgba(242, 242, 242, 0.5);
 }
