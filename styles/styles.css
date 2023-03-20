@@ -129,7 +129,7 @@ body {
   overflow: hidden;
 }
 
-li {
+body li {
 list-style-type: none;
 }
 
@@ -398,7 +398,8 @@ background-color: rgba(131, 179, 211, 0.12);
   margin: 0;
 }
 
-footer {
+.index-footer,
+.catalog-footer {
   display: flex;
   flex-direction: column;
 }
@@ -1124,7 +1125,7 @@ padding: 12px 20px;
   color: rgba(153, 183, 209, 1);
 }
 
-.control:active .control-mark svg{
+.control:active .checked-svg{
   fill:#3F5E72;
 }
 
@@ -1311,7 +1312,7 @@ padding: 12px 20px;
 
 .sort-select {
   width: 292px;
-  font-family: PT Sans;
+  font-family: PT Sans, sans-serif;
   font-style: normal;
   Font-size: 18px;
   Line-height: 21px;
