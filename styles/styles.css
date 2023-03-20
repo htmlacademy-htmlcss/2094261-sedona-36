@@ -235,6 +235,7 @@ list-style-type: none;
 .advantages_photo {
   display: block;
   object-fit: cover;
+  height: 100%;
 }
 
 .Search_hotel {
